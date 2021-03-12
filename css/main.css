@@ -29,9 +29,26 @@ body {
     float: left;
     padding: 60px;
     background-color: #fff;
+    position: relative;
 }
 
 .close {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    /* background-color: red; */
+    font-size: 30px;
+    text-align: center;
+    line-height: 57px;
+}
+
+.close:hover {
+    color: red;
+    background-color: #ccc;
+    cursor: pointer;
 }
 
 form { 
